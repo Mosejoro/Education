@@ -1,0 +1,145 @@
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    z-index:9999 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.move{
+    animation: top 2s forwards;
+}
+@keyframes top {
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+header img{
+    width: 7rem;
+}
+/* Trial */
+main div i:hover{
+    transform: translateX(20px);
+    
+}
+/* Trial */
+/* Testimonial */
+.heading {
+    position: relative;
+}
+.testimonials {
+    background: url("Image/Kid.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 130px 0 150px;
+    color: #ffffff;
+    position: relative;
+}
+.testimonials:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.testimonials .heading h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.testimonials .heading h2 span {
+    color: #ff0000;
+}
+
+.testimonials p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #d1e5e7;
+    margin: 20px 0;
+    padding: 0;
+}
+
+/* Image */
+.testimonials .carousel-inner .carousel-item .team {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ff0000;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 50px 0 15px;
+}
+
+.testimonials .carousel-inner .carousel-item h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.testimonials .carousel-inner .carousel-item h4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #e2e1e1;
+    margin-bottom: 20px;
+}
+
+.testimonials .carousel-indicators {
+    bottom: -30px;
+}
+
+.testimonials .carousel-indicators .active {
+    background-color: gold;
+}
+
+.testimonials .control span {
+    cursor: pointer;
+}
+
+.testimonials .icon {
+    height: 40px;
+    width: 40px;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    font-size: 30px;
+    background-image: none;
+    color: #ffffff;
+}
+/* Testimonial */
+/* Colors */
+header{
+    background-color: #5f5f5f ;
+}
+.nav-link{
+    color:  #ECF0F1 ;
+}
+#Home{
+    background-color: #ecf0f1;
+}
+#Home button{
+    background-color: #E74C3C;
+}
+
+#Home h1 {
+    color: #2C3E50;
+}
+
+#Home p {
+    color: #34495E ;
+}
+
+#Features i  {
+    background-color: #3498DB ;
+}
+#Teacher{
+    background-color: #2C3E50;
+    color: #ECF0F1 ;
+}
+/* Colors */
